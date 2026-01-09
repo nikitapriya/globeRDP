@@ -57,7 +57,7 @@ export default function Header() {
         </div>
         <div className="text-lg">
           {" "}
-          <a href="https://globerdp.com/billing/clientarea.phpp">Login </a>{" "}
+          <a href="https://globerdp.com/billing/clientarea.php">Login </a>{" "}
           <span className="opacity-[.67]">|</span>{" "}
           <a href="https://globerdp.com/billing/register.php">Register</a>
         </div>
@@ -221,7 +221,7 @@ export default function Header() {
               <ul className="list-none p-0 m-0">
                 <li className="border-b pl-4 p-1 pr-3 border-[#e6e6e6]">
                   <a
-                    href="https://globerdp.com/billing/clientarea.phpp"
+                    href="https://globerdp.com/billing/clientarea.php"
                     onClick={() => setVisible(false)}
                     className="block px-8 py-2 text-[13px] font-bold"
                   >
@@ -263,7 +263,7 @@ export default function Header() {
               </NavLink>
             </li>
             <div className=" mt-10 flex flex-col gap-4 w-full justify-center items-center">
-              <a href="https://globerdp.com/billing/clientarea.phpp">
+              <a href="https://globerdp.com/billing/clientarea.php">
                 <button className="px-10 py-3 w-50 rounded-2xl border border-green-700 bg-white text-green-700 font-semibold hover:bg-green-400 hover:border-green-400 hover:text-white hover:shadow-lg hover:shadow-green-400/50 transition">
                   Login
                 </button>

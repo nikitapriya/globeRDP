@@ -73,7 +73,7 @@ export default function Footer() {
               <XIcon className="hover:scale-125 transition" />
             </a>
             <a
-              href="https://whatsapp.com/channel/0029Va4PtgU4CrfihdIm4K3K"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Join our WhatsApp channel"
@@ -87,7 +87,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://www.instagram.com/need_rdp"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -99,7 +99,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://youtube.com/@globerdp"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="YouTube"
@@ -155,7 +155,7 @@ export default function Footer() {
           <ul className="space-y-3 justify-self-center md:justify-self-start">
             <li className="">
               <a
-                href="https://globerdp.com/client/submitticket.php?step=2&deptid=1"
+                href="https://globerdp.com/billing/submitticket.php"
                 className="flex items-center gap-2 hover:text-green-800"
               >
                 <ArrowForwardIosIcon fontSize="small" />

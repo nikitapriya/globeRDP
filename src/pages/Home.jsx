@@ -30,7 +30,7 @@ const Home = () => {
       icon: "fa-solid fa-hard-drive",
       title: "Admin RDP",
       subTitle: "100% Dedicated Admin RDP",
-      desc: "Get full administrator access with a private, dedicated Windows RDP server starting at just ₹599/month. No shared access. No limitations.",
+      desc: "Get full administrator access with a private, dedicated Windows RDP server starting at just $7.49/month. No shared access. No limitations.",
     },
     {
       icon: "fa-solid fa-cloud",

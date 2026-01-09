@@ -46,7 +46,7 @@ a.active p > span {
     background-image: linear-gradient(62deg, #28A745  0%, #28A745 100%);
 }
 .bgHero{
-     background-color: #17dbd4;
+     background-color: #28A745;
 }
 .fast-cursor {
   animation: Blink 0.4s step-start infinite;
