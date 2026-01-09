@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+body{  
+    
+    background-color:white;
+}
+a.active hr{
+ display: block;
+}
+a.active p{
+ color: #28A745;
+}
+a.active p > span {
+  background: #28A745;
+}
+
+.sidebar-small a.active{
+    border: none;
+    background-color: #28A745;
+}
+.bg{
+    background-color: #28a745;
+}
+.getReadyBg {
+  background: linear-gradient(
+    120deg,
+    #28A745 70%,
+    #00e1d8 0%
+  );
+}
+.contact_features {
+  transition: background-color 200ms ease-in, color 200ms ease-in;
+}
+
+.contact_features:hover {
+  background-color: #00a9a2;
+  color: white !important;
+}
+
+.contact_features:hover .feature_link {
+  color: white;
+}
+
+.bgFooter{
+    background-color: #00a9a2;
+    background-image: linear-gradient(62deg, #28A745  0%, #28A745 100%);
+}
+.bgHero{
+     background-color: #17dbd4;
+}
+.fast-cursor {
+  animation: Blink 0.4s step-start infinite;
+}
+
+@keyframes Blink {
+  50% {
+    opacity: 0;
+  }
+}
+.slow-cursor {
+  animation: Blink 1s ease-in-out  infinite;
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(-50%) translateY(0);
+  }
+  50% {
+    transform: translateY(-50%) translateY(-12px);
+  }
+}
+
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-float-slow {
+  animation: float-slow 4s ease-in-out infinite;
+}
+
+
