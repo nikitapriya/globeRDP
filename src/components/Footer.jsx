@@ -29,7 +29,7 @@ export default function Footer() {
             <img
               src={assets.logoText}
               alt="GlobeRDP"
-              className="brightness-50 object-cover w-44"
+              className="object-cover w-44"
             />
           </div>
 
