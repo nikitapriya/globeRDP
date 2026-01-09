@@ -72,7 +72,7 @@ function Contact() {
               <p className="mb-3 font-semibold">
                 <a
                   href="mailto:support@globerdp.com"
-                  className="text-teal-600 feature_link"
+                  className="text-green-600 feature_link"
                 >
                   support@globerdp.com
                 </a>
@@ -93,7 +93,7 @@ function Contact() {
               <p className="mb-3 font-semibold">
                 <a
                   href="tel:+918058050041"
-                  className="text-teal-600 feature_link"
+                  className="text-green-600 feature_link"
                 >
                   +91 805 805 0041
                 </a>
@@ -114,7 +114,7 @@ function Contact() {
               <p className="mb-3 font-semibold">
                 <button
                   // onClick={() => window.$crisp?.push(["do", "chat:open"])}
-                  className="text-teal-600 feature_link"
+                  className="text-green-600 feature_link"
                 >
                   Start Chat Now
                 </button>
@@ -141,7 +141,7 @@ function Contact() {
                   onChange={handleChange}
                   required
                   className="w-full text-lg border border-gray-400 focus:border-0 p-5 pl-16 rounded-xl
-               focus:ring-2 focus:ring-teal-500 focus:outline-none"
+               focus:ring-2 focus:ring-green-500 focus:outline-none"
                 />
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -154,7 +154,7 @@ function Contact() {
                     required
                     title="Please enter a valid email address"
                     className="w-full text-lg border border-gray-400 focus:border-0 p-5 pl-16 rounded-xl
-               focus:ring-2 focus:ring-teal-500 focus:outline-none"
+               focus:ring-2 focus:ring-green-500 focus:outline-none"
                   />
 
                   <div className="relative">
@@ -173,7 +173,7 @@ function Contact() {
                       pattern="[6-9][0-9]{9}"
                       title="Please enter a valid 10-digit Indian mobile number"
                       className="w-full text-lg border border-gray-400 focus:border-0 p-5 pl-16 rounded-xl
-               focus:ring-2 focus:ring-teal-500 focus:outline-none"
+               focus:ring-2 focus:ring-green-500 focus:outline-none"
                     />
                   </div>
                 </div>
@@ -185,7 +185,7 @@ function Contact() {
                   value={formData.comment}
                   onChange={handleChange}
                   className="w-full text-lg border border-gray-400 focus:border-0 p-5 pl-16 rounded-xl
-               focus:ring-2 focus:ring-teal-500 focus:outline-none"
+               focus:ring-2 focus:ring-green-500 focus:outline-none"
                 />
                 <div className="text-center space-y-6 text-gray-700">
                   <p>
@@ -193,7 +193,7 @@ function Contact() {
                   </p>
                   <button
                     type="submit"
-                    className="bg-teal-700 text-white text-xl px-10 py-3 rounded-md hover:bg-teal-400 hover:text-white hover:shadow-lg hover:shadow-teal-400/50 transition"
+                    className="bg-green-700 text-white text-xl px-10 py-3 rounded-md hover:bg-green-400 hover:text-white hover:shadow-lg hover:shadow-green-400/50 transition"
                   >
                     Send Message
                   </button>

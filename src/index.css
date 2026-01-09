@@ -33,7 +33,7 @@ a.active p > span {
 }
 
 .contact_features:hover {
-  background-color: #00a9a2;
+  background-color: #28A745;
   color: white !important;
 }
 
@@ -42,7 +42,7 @@ a.active p > span {
 }
 
 .bgFooter{
-    background-color: #00a9a2;
+    background-color: #28A745;
     background-image: linear-gradient(62deg, #28A745  0%, #28A745 100%);
 }
 .bgHero{
